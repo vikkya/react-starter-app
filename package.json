@@ -3,15 +3,13 @@
   "version": "1.0.0",
   "description": "This is a react starter app bootstraped with webpack 4 and babel",
   "main": "index.js",
+  "repository": "https://github.com/vikkya/react-starter-app.git",
   "scripts": {
     "start": "webpack-dev-server --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Vikky Ambarkar",
   "license": "ISC",
-  "babel": {
-    "presets": ["env", "react"]
-  },
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
